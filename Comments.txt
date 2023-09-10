@@ -1,0 +1,17 @@
+1- git init
+2-git config --g user.name "ahmedelwaraky"
+3-git config --g user.email "ahmed.elwaraky1@gmail.com"
+4-git add index.html      //to stage area
+*-git status     	  //=> to know status 
+5-git commit -m "index file is added"
+6-git log                 //to know your logs
+this is all only (local repo)
+7-to make remote repo =>
+8-ssh-keygen -t ed25519 -C "ahmed.elwaraky1@gmail.com"
+9-git remote add origin git@github.com:ahmedelwaraky/GitHub-Task.git
+10-remote -v                 //for sure
+11-git log
+12-git git branch     =master     
+to change master
+*-git branch -M main
+13-git push origin main
